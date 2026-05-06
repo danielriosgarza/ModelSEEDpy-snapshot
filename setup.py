@@ -43,6 +43,7 @@ setup(
         "matplotlib >= 3.0.0",
         "Jinja2 >= 3.1.4",
         "sympy >=1.12.0",
+        "pyrodigal >= 3.0.0",  # required for .fna/.fna.gz batch reconstruction inputs
     ],
     tests_require=[
         "pytest",
